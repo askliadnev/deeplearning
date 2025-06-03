@@ -1,0 +1,36 @@
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+from google.colab import auth
+from oauth2client.client import GoogleCredentials
+import os
+import zipfile
+import shutil
+from pyngrok import ngrok
+import threading
+import time
+import os
+import os
+import zipfile
+import gdown
+import torch
+import requests
+import json
+import pandas as pd
+import streamlit as st
+
+from transformers import (
+    AutoTokenizer,
+    AutoModelForSeq2SeqLM,
+    T5Tokenizer,
+    T5ForConditionalGeneration,
+    MT5Tokenizer,
+    MT5ForConditionalGeneration
+)
+
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+from google.colab import auth
+from oauth2client.client import GoogleCredentials
+import os
+import zipfile
+import shutil
